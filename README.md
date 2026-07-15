@@ -44,16 +44,16 @@ Google BigQuery
 Github
 
 ## SQL Concepts Used
-Joins
-Aggregate Functions
-GROUP BY
-CASE Statements
-Common Table Expressions (CTEs)
-Window Functions
-DENSE_RANK()
-DATE Functions
-DATE_DIFF()
-FORMAT_DATE()
+- Joins
+- Aggregate Functions
+- GROUP BY
+- CASE Statements
+- Common Table Expressions (CTEs)
+- Window Functions
+- DENSE_RANK()
+- DATE Functions
+- DATE_DIFF()
+- FORMAT_DATE()
 
 ## Key Insights
 
