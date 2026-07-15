@@ -57,6 +57,18 @@ Github
 
 ## Key Insights
 
+- Target experienced significant growth in order volume between 2016 and 2018, with growth beginning to stabilize during the final year.
+- Customer demand exhibited clear seasonality, with the highest number of orders recorded during November, indicating peak shopping periods.
+- Afternoon was the preferred time for customers to place orders, highlighting an opportunity for time-based marketing campaigns.
+- Target established a strong nationwide presence by serving customers across 4,119 cities and 27 Brazilian states.
+- Credit cards were the most preferred payment method, while installment-based payments were widely adopted, emphasizing the importance of flexible payment options.
+
+## Business Recommendations
+
+- Strengthen customer retention initiatives through loyalty programs and personalized offers as business growth begins to stabilize.
+- Prepare inventory, logistics, and promotional campaigns ahead of high-demand periods, particularly during November.
+- Schedule marketing campaigns and promotional notifications during afternoon hours to maximize customer engagement.
+- Continue offering multiple payment methods and flexible installment options to enhance customer convenience and encourage higher-value purchases.
 
 
 
