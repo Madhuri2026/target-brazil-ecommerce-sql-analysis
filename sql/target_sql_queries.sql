@@ -9,7 +9,9 @@ I. Exploratory Analysis
 -- Q1. Get the time range between which the orders were placed
 
 SELECT MIN(order_purchase_timestamp) AS first_order,
-       MAX(order_purchase_timestamp) AS last_order
+       MAX(order_purchase_timestamp) AS last_order,
+       DATE_DIFF(MAX(order_purchase_timestamp)),
+                 MIN(order_purchase_timestamp)), DAY) AS total_span_days
 FROM `Target.orders`;
 
 -- Insight: 
