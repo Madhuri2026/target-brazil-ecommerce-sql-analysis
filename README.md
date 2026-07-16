@@ -19,26 +19,29 @@ Sellers
 Reviews
 Geolocation
 
-## Business Objectives
+## Business Questions Answered
 The analysis focuses on answering the following business questions:
 ### Exploratory Analysis
-- Understand the dataset structure and time period
-- Analyze customer distribution across Brazil
+- What is the time range of orders in the dataset?
+- How many cities and states did customers order from?
 ### Order Trends
-- Identify yearly growth in orders
-- Analyze monthly seasonality
-- Determine peak shopping hours
+- Is there a growing trend in annual orders?
+- Is there monthly seasonality in order volume?
+- What time of day do Brazilian customers mostly order?
 ### Regional Analysis
-- Compare customer distribution across states
-- Analyze state-wise order trends
-### Revenue & Logistics
-- Compare order value across states
-- Evaluate freight costs by region
-- Measure delivery performance
+- How do orders trend month-on-month across states?
+- How are customers distributed across Brazilian states?
+### Economic Impact
+- What is the total and average order value per state?
+- What is the total and average freight cost per state?
+### Delivery Performance
+- How many days does it take to deliver each order?
+- Which states have the highest and lowest average freight costs?
+- Which states have the fastest and slowest average delivery times?
 ### Payment Analysis
-- Analyze preferred payment methods
-- Study installment usage patterns
-
+- Which payment types are used month-on-month?
+- How many orders are placed across different installment counts?
+  
 ## Tools Used
 Google BigQuery
 Github
@@ -57,18 +60,21 @@ Github
 
 ## Key Insights
 
-- Target experienced significant growth in order volume between 2016 and 2018, with growth beginning to stabilize during the final year.
-- Customer demand exhibited clear seasonality, with the highest number of orders recorded during November, indicating peak shopping periods.
-- Afternoon was the preferred time for customers to place orders, highlighting an opportunity for time-based marketing campaigns.
-- Target established a strong nationwide presence by serving customers across 4,119 cities and 27 Brazilian states.
-- Credit cards were the most preferred payment method, while installment-based payments were widely adopted, emphasizing the importance of flexible payment options.
+- Orders grew from 329 (2016) → 45,101 (2017) → 54,011 (2018). A massive scale-up, though growth rate decelerated in 2018
+- November 2017 saw a sharp spike from ~3,700 (May) to 7,500+ orders — strong evidence of seasonal demand
+- 38,135 orders placed in the afternoon — 7.3× more than the 5,242 placed at dawn. Peak purchase window is 13:00–18:00
+- São Paulo (SP) dominates total freight spend at R$718,723 — but pays the lowest average freight at R$15.15 per order
+- Roraima (RR) pays the highest average freight at R$42.98 — nearly 3× more than SP
+- RR takes 29.3 days on average to deliver vs just 8.7 days for SP — a 3.4× gap in delivery speed
+- Credit card is the dominant payment method across all months; UPI and vouchers are secondary
+- 52,546 orders used 1 installment — most customers pay in full; installment usage drops sharply beyond 3
 
 ## Business Recommendations
 
-- Strengthen customer retention initiatives through loyalty programs and personalized offers as business growth begins to stabilize.
-- Prepare inventory, logistics, and promotional campaigns ahead of high-demand periods, particularly during November.
-- Schedule marketing campaigns and promotional notifications during afternoon hours to maximize customer engagement.
-- Continue offering multiple payment methods and flexible installment options to enhance customer convenience and encourage higher-value purchases.
+- Strengthen customer retention initiatives through loyalty programs and personalized offers as business growth begins to stabilize
+- Prepare inventory, logistics, and promotional campaigns ahead of high-demand periods, particularly during November
+- Schedule marketing campaigns and promotional notifications during afternoon hours to maximize customer engagement
+- Continue offering multiple payment methods and flexible installment options to enhance customer convenience and encourage higher-value purchases
 
 
 
