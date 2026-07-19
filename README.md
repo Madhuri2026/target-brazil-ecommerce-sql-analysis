@@ -21,6 +21,7 @@ Geolocation
 
 ## Business Questions Answered
 The analysis focuses on answering the following business questions:
+
 ### Exploratory Analysis
 - What is the time range of orders in the dataset?
 - How many cities and states did customers order from?
@@ -34,10 +35,6 @@ The analysis focuses on answering the following business questions:
 ### Economic Impact
 - What is the total and average order value per state?
 - What is the total and average freight cost per state?
-### Delivery Performance
-- How many days does it take to deliver each order?
-- Which states have the highest and lowest average freight costs?
-- Which states have the fastest and slowest average delivery times?
 ### Payment Analysis
 - Which payment types are used month-on-month?
 - How many orders are placed across different installment counts?
@@ -61,11 +58,14 @@ Github
 ## Key Insights
 
 - Orders grew from 329 (2016) → 45,101 (2017) → 54,011 (2018). A massive scale-up, though growth rate decelerated in 2018
+  ![Annual order growth](images/annual_order_growth.png)
 - November 2017 saw a sharp spike from ~3,700 (May) to 7,500+ orders — strong evidence of seasonal demand
 - 38,135 orders placed in the afternoon — 7.3× more than the 5,242 placed at dawn. Peak purchase window is 13:00–18:00
+  ![Orders by time of day](images/time_of_day_orders.png)
 - São Paulo (SP) dominates total freight spend at R$718,723 — but pays the lowest average freight at R$15.15 per order
 - Roraima (RR) pays the highest average freight at R$42.98 — nearly 3× more than SP
 - RR takes 29.3 days on average to deliver vs just 8.7 days for SP — a 3.4× gap in delivery speed
+  ![Delivery time by state](images/delivery_by_state.png)
 - Credit card is the dominant payment method across all months; UPI and vouchers are secondary
 - 52,546 orders used 1 installment — most customers pay in full; installment usage drops sharply beyond 3
 
